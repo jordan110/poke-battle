@@ -1,0 +1,79 @@
+*{
+	font-family: Montserrat,sans-serif;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background-image: url(../img/fond.jpg);
+	background-size: cover;
+
+}
+@font-face{
+	font-family: PokemonSolid;
+	 src: url('PokemonSolid.ttf') format('truetype');
+}
+#Titre{
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+}
+#btn{
+	display: flex;
+	justify-content: center;
+}
+#game, #battle{
+	font-weight: bold;
+	background-color: #2E6EB6;
+}
+#background{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.image{ 
+	width: 80%;
+	height: 80%;
+}
+.image_poke{
+	width: 90%;
+	height: auto;
+}
+#center{
+	margin: 100px auto;
+}
+#center_2{
+	margin: 100px auto;
+	display: none;
+}
+#joueur1{
+	font-weight: bold;
+	width: 90px;
+	height: auto;
+	font-size: 19px;
+}
+#joueur2{
+	font-weight: bold;
+	width: 90px;
+	font-size: 19px;
+	height: auto;
+	display: none;
+}
+#select{
+	display: flex;
+	justify-content: flex-end;
+}
+#fight{
+	display: none;
+	font-weight: bold;
+}
+#result1{
+	display: none;
+}
+#result2{
+	display: none;
+}
+p{
+	font-family: 'PokemonSolid', Montserrat;
+	text-align: center;
+}
+
